@@ -1,2 +1,3 @@
-# challenge_portfolio_Agata_Gnoinska
 # __TASK 1__
+## Subtask 1
+9 punktów
