@@ -12,7 +12,7 @@ Subtask 1
 Subtask 3
 ---------
 
-Zastanawiam się nad zmianą pracy i branży, a mieliśmy szkolenie w pracy powiązane z programowaniem i IT, co zawsze mnie ciekawiło, ale nigdy nie miałam okazji próbować. Chciałam przekonać się jak praktycznie wygląda testowanie, do tego lubię wyszukiwać szczegóły i błędy oraz nie boję się klikać :)
+Zastanawiam się nad zmianą pracy i branży, a mieliśmy szkolenie w pracy powiązane z programowaniem i IT, co zawsze mnie ciekawiło, ale nigdy nie miałam okazji próbować. Chciałam przekonać się jak praktycznie wygląda testowanie, do tego lubię wyszukiwać szczegóły i błędy oraz nie boję się klikać :smiley:
 
 * * *
 
@@ -71,7 +71,6 @@ Brakuje możliwości porównywania graczy, a także podsumowania statystyk gracz
 *   Strona główna jest niepraktyczna, informacje i odnośniki wydają się niewystarczające, strona główna funkcjonuje właściwie jedynie w celu skorzystania z opcji „dodaj gracza” oznaczonej jako linki pomocnicze, gdzie nie jest jej miejsce, ponieważ dodawanie graczy jest jedną z głównych funkcji tego panelu. Brak tu też okna wyszukiwania.
     
 *   Przy obsłudze klawiszami podświetlenia są nieczytelne i pojawiają się po dwa razy.
-    
 
 ### Błędy:
 
