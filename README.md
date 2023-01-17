@@ -20,7 +20,7 @@ Zastanawiam się nad zmianą pracy i branży, a mieliśmy szkolenie w pracy powi
 Subtask 4
 ---------
 
-### __Aplikacja Scouts panel:__
+### Aplikacja Scouts panel:
 
 Gromadzi informacje na temat zawoników piłki nożnej w celu wyselekcjonowania najlepszych graczy, dlatego najważniejszym jest aby te informacje były łatwo dostępne i przejrzyście uporządkowane.
 
