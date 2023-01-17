@@ -70,7 +70,9 @@ Brakuje możliwości porównywania graczy, a także podsumowania statystyk gracz
     
 *   Strona główna jest niepraktyczna, informacje i odnośniki wydają się niewystarczające, strona główna funkcjonuje właściwie jedynie w celu skorzystania z opcji „dodaj gracza” oznaczonej jako linki pomocnicze, gdzie nie jest jej miejsce, ponieważ dodawanie graczy jest jedną z głównych funkcji tego panelu. Brak tu też okna wyszukiwania.
     
-*   Przy obsłudze klawiszami podświetlenia są nieczytelne i pojawiają się po dwa razy.
+*   Przy obsłudze klawiszami podświetlenia są nieczytelne i pojawiają się po dwa razy: 
+![GitHub tag](https://github.com/agatagnoinska/challenge_portfolio_Agata_Gnoinska/blob/main/screen1.png)
+![GitHub tag](https://github.com/agatagnoinska/challenge_portfolio_Agata_Gnoinska/blob/main/screen2.png)
 
 ### Błędy:
 
