@@ -24,7 +24,7 @@ Subtask 4
 
 Gromadzi informacje na temat zawoników piłki nożnej w celu wyselekcjonowania najlepszych graczy, dlatego najważniejszym jest aby te informacje były łatwo dostępne i przejrzyście uporządkowane.
 
-### Funkcjonalności aplikacji:
+%(#F​​F000​0)[czerwony]### Funkcjonalności aplikacji:
 
 *   możliwe jest zalogowanie/wylogowanie
 
