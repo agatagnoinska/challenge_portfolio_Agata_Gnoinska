@@ -1,6 +1,5 @@
 Task 1
 ======
-
 * * *
 
 Subtask 1
@@ -24,7 +23,7 @@ Subtask 4
 
 Gromadzi informacje na temat zawoników piłki nożnej w celu wyselekcjonowania najlepszych graczy, dlatego najważniejszym jest aby te informacje były łatwo dostępne i przejrzyście uporządkowane.
 
-%(#F​​F000​0)[czerwony]### Funkcjonalności aplikacji:
+### Funkcjonalności aplikacji:
 
 *   możliwe jest zalogowanie/wylogowanie
 
@@ -52,7 +51,7 @@ Gromadzi informacje na temat zawoników piłki nożnej w celu wyselekcjonowania 
     
 *   Niewykorzystaną informacją jest minuta meczu zaznaczanej akcji w zakładce „Rozpocznij mecz” – powinno to być ujęte w raporcie.
     
-*   Dodawanie zdarzeń do meczu w zakładce „Rozegraj mecz” jest zupełnie nieintuicyjne, ponieważ po na jechaniu na ikonki nie wyświetla się jej funcka, po dodaniu akcji nie można już tego znacznika usnąć ani edytować oraz nie wiadomo, który znacznik był jakim zdarzeniem, ponieważ nie wyświetlają się o nim żadne informacje (ani w oknie po najechaniu na niego, ani w formie listy poniżej).
+*   Dodawanie zdarzeń do meczu w zakładce „Rozegraj mecz” jest zupełnie nieintuicyjne, ponieważ po na jechaniu na ikonki nie wyświetla się jej funkcja, po dodaniu akcji nie można już tego znacznika usnąć ani edytować oraz nie wiadomo, który znacznik był jakim zdarzeniem, ponieważ nie wyświetlają się o nim żadne informacje (ani w oknie po najechaniu na niego, ani w formie listy poniżej).
     
 *   Niektóre informacje wprowadzane w profilu gracza oraz meczu powinny być rozwijaną listą np. pozycja piłkarza. W „dodawaniu meczu” powinna być jeszcze rubryka na jakiej pozycji grał piłkarz w tym konkretnym meczu, ponieważ w profilu gracza możliwe jest wpisanie pozycji głównej i alternatywnej, a wyświetlane opcje w danym meczu w „rozpocznij mecz” są domyślnie ustawione dla pozycji głównej, co najczęściej będzie się zgadzało, ale nie zawsze.
     
@@ -92,3 +91,4 @@ Brakuje możliwości porównywania graczy, a także podsumowania statystyk gracz
 *   W „Rozpocznij mecz”: za późno o 1 sekundę pauzuje się zegar, dodawanie zdarzeń możliwe tylko jak jest uruchomiony zegar (dodawanie akcji nie pauzuje go), można dodać ujemny czas, ale może to być przydatne przy dogrywce, można za to ustawić więcej niż dwie połowy.
     
 *   Nie wyświetla się favicon (błąd 404).
+* * *
