@@ -93,3 +93,25 @@ Brakuje możliwości porównywania graczy, a także podsumowania statystyk gracz
     
 *   Nie wyświetla się favicon (błąd 404).
 * * *
+
+Task 2
+======
+* * *
+
+Subtask 1
+---------
+![GitHub tag](https://docs.google.com/spreadsheets/d/1-wAf31E76_X2PXHe6B3eY2_9sM2ecmgVdi_MraQ5gE0/edit?usp=sharing)
+
+* * *
+Subtask 2
+---------
+![GitHub tag](https://docs.google.com/document/d/1jdNBoIOo_dSgxcfpOr7DRsupr08_Wt4CAozyikA97YI/edit?usp=sharing)
+
+* * *
+Subtask 
+---------
+* Test case przydatne są do uporządkowania pracy, szybkiego odnalezienia na jakim etapie testowania się jest oraz nie pogubienia się w tym gąszczu
+* Mogą się także przydać, gdy nasz projekt dostanie ktoś po nas - będzie mógł łatwo i szybko odtworzyć testy
+* Szybko będzie można przeprowadzić jeszcze raz test np. po wprowadzonych zmianach lub naprawionych usterkach
+
+* * *
