@@ -100,12 +100,12 @@ Task 2
 
 Subtask 1
 ---------
-![GitHub tag](https://docs.google.com/spreadsheets/d/1-wAf31E76_X2PXHe6B3eY2_9sM2ecmgVdi_MraQ5gE0/edit?usp=sharing)
+[Subtask 1](https://docs.google.com/spreadsheets/d/1-wAf31E76_X2PXHe6B3eY2_9sM2ecmgVdi_MraQ5gE0/edit?usp=sharing)
 
 * * *
 Subtask 2
 ---------
-![GitHub tag](https://docs.google.com/document/d/1jdNBoIOo_dSgxcfpOr7DRsupr08_Wt4CAozyikA97YI/edit?usp=sharing)
+[Subtask 2](https://docs.google.com/document/d/1jdNBoIOo_dSgxcfpOr7DRsupr08_Wt4CAozyikA97YI/edit?usp=sharing)
 
 * * *
 Subtask 
