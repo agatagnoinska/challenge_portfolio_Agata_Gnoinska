@@ -108,7 +108,7 @@ Subtask 2
 [Subtask 2](https://docs.google.com/document/d/1jdNBoIOo_dSgxcfpOr7DRsupr08_Wt4CAozyikA97YI/edit?usp=sharing)
 
 * * *
-Subtask 
+Subtask 3
 ---------
 * Test case przydatne są do uporządkowania pracy, szybkiego odnalezienia na jakim etapie testowania się jest oraz nie pogubienia się w tym gąszczu
 * Mogą się także przydać, gdy nasz projekt dostanie ktoś po nas - będzie mógł łatwo i szybko odtworzyć testy
