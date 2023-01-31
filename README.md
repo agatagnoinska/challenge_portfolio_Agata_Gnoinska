@@ -115,3 +115,17 @@ Subtask 3
 * Szybko będzie można przeprowadzić jeszcze raz test np. po wprowadzonych zmianach lub naprawionych usterkach
 
 * * *
+Task 3
+======
+* * *
+
+Subtask 2
+---------
+[Subtask 2](https://docs.google.com/spreadsheets/d/1IO59aS6apXWVpZZQe_7vELbjcHcz2QyeJE5OVG-UOKk/edit?usp=sharing)
+* * *
+
+Subtask 3
+---------
+[Subtask 3](https://docs.google.com/spreadsheets/d/1KTuDIrWS6Ofl8UZmbfxIeZBIdSVywJvJE-yDex69ee8/edit?usp=sharing)
+
+* * *
