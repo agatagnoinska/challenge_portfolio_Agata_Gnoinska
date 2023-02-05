@@ -142,22 +142,27 @@ Subtask 3
 1. *Do czego służy ta aplikacja?*
 
 
-2. Aplikacja służy do **sprzedaży, kupna, wymiany lub oddania za darmo usług i przedmiotów**. Umożliwia także dodanie **oferty pracy, aplikowanie o pracę** w odpowiedzi na ogłoszenie oraz stworzenie swojego profilu kandydata. Głównym celem jest szybkie wyszukiwanie oraz zakup lub dodawanie i sprzedaż potrzebnych rzeczy/usług głównie przez osoby prywatne. Platforma umożliwia i ułatwia poszukiwanie oraz **kontakt pomiędzy kupującym a sprzedającym**.
+Aplikacja służy do **sprzedaży, kupna, wymiany lub oddania za darmo usług i przedmiotów**. Umożliwia także dodanie **oferty pracy, aplikowanie o pracę** w odpowiedzi na ogłoszenie oraz stworzenie swojego profilu kandydata. Głównym celem jest szybkie wyszukiwanie oraz zakup lub dodawanie i sprzedaż potrzebnych rzeczy/usług głównie przez osoby prywatne. Platforma umożliwia i ułatwia poszukiwanie oraz **kontakt pomiędzy kupującym a sprzedającym**.
 
 
-3. *Kto ma być użytkownikiem końcowym aplikacji?*
-    Głównie są to osoby prywatne, oferujące sprzedaż lub kupno przedmiotów/usług.
+2. *Kto ma być użytkownikiem końcowym aplikacji?*
+   
+   
+   Głównie są to osoby prywatne, oferujące sprzedaż lub kupno przedmiotów/usług.
 
-
-4. *Czy według Ciebie aplikacja jest user friendly?*
-    Aplikacja **jest user-friendly** - jest czytelna, posiada w odpowiednim (intuicynym) miejscu skróty do najważniejszych opcji, łatwo można nauczyć się jej obsługi, wszystkie potrzebne informacje są widoczne, ale jednocześnie nie jest nimi przeładowana, posiada stonowane kolory i przejrzysty układ, szybko się ładuje. Dodatkowo posiada ułatwienia i funkcje, kótre nie są niejasne - wiadomo, co ich wybranie spowoduje.
-    
+3. *Czy według Ciebie aplikacja jest user friendly?*
+   
+   
+   Aplikacja **jest user-friendly** - jest czytelna, posiada w odpowiednim (intuicynym) miejscu skróty do najważniejszych opcji, łatwo można nauczyć się jej obsługi, wszystkie potrzebne informacje są widoczne, ale jednocześnie nie jest nimi przeładowana, posiada stonowane kolory i przejrzysty układ, szybko się ładuje. Dodatkowo posiada ułatwienia i funkcje, kótre nie są niejasne - wiadomo, co ich wybranie spowoduje.
     
 5. *Jak byś usprawnił aplikację?*
+    
+    
     Lepsze dopasowanie "Ofert wybranych dla ciebie" oraz możliwośc porównywania wybranych ofert.
 
-
 6. *Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
+
+
 *  Główną różnicą jest konieczność **zainstalowania** aplikacji natywnej, więc przez to też **posiadania odpowiednich urządzeń testowych** lub wykorzystania emulatora urządzeń. 
 *  Przy aplikacjach natywnych dużo **większe znaczenie ma urządenie**, na których zostają one zainstalowane i przeprowadzone testy. 
 *  W testowaniu aplikacji natywnej nie mamy dostępu do **Devtools**.
