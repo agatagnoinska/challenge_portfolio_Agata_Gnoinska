@@ -1,4 +1,4 @@
-Task 1
+Task 1: Testy eksploracyjne
 ======
 * * *
 
@@ -94,48 +94,49 @@ Brakuje możliwości porównywania graczy, a także podsumowania statystyk gracz
 *   Nie wyświetla się favicon (błąd 404).
 * * *
 
-Task 2
+Task 2: Test cases
 ======
 * * *
 
 Subtask 1
 ---------
-[Subtask 1](https://docs.google.com/spreadsheets/d/1-wAf31E76_X2PXHe6B3eY2_9sM2ecmgVdi_MraQ5gE0/edit?usp=sharing)
+[Przypadki testowe na podstawie User Story](https://docs.google.com/spreadsheets/d/1-wAf31E76_X2PXHe6B3eY2_9sM2ecmgVdi_MraQ5gE0/edit?usp=sharing)
 
 * * *
 Subtask 2
 ---------
-[Subtask 2](https://docs.google.com/document/d/1jdNBoIOo_dSgxcfpOr7DRsupr08_Wt4CAozyikA97YI/edit?usp=sharing)
+[Przypadki testowe na podstawie “własnych doświadczeń"](https://docs.google.com/document/d/1jdNBoIOo_dSgxcfpOr7DRsupr08_Wt4CAozyikA97YI/edit?usp=sharing)
 
 * * *
 Subtask 3
 ---------
+Po co piszemy test case’y?
 * Test case przydatne są do uporządkowania pracy, szybkiego odnalezienia na jakim etapie testowania się jest oraz nie pogubienia się w tym gąszczu
 * Mogą się także przydać, gdy nasz projekt dostanie ktoś po nas - będzie mógł łatwo i szybko odtworzyć testy
 * Szybko będzie można przeprowadzić jeszcze raz test np. po wprowadzonych zmianach lub naprawionych usterkach
 
 * * *
-Task 3
+Task 3: Raportowanie błędów
 ======
 * * *
 
 Subtask 2
 ---------
-[Subtask 2](https://docs.google.com/spreadsheets/d/1IO59aS6apXWVpZZQe_7vELbjcHcz2QyeJE5OVG-UOKk/edit?usp=sharing)
+[Bugs Reports](https://docs.google.com/spreadsheets/d/1IO59aS6apXWVpZZQe_7vELbjcHcz2QyeJE5OVG-UOKk/edit?usp=sharing)
 * * *
 
 Subtask 3
 ---------
-[Subtask 3](https://docs.google.com/spreadsheets/d/1KTuDIrWS6Ofl8UZmbfxIeZBIdSVywJvJE-yDex69ee8/edit?usp=sharing)
+[Tests Report](https://docs.google.com/spreadsheets/d/1KTuDIrWS6Ofl8UZmbfxIeZBIdSVywJvJE-yDex69ee8/edit?usp=sharing)
 
 * * *
-Task 4
+Task 4: Testowanie aplikacji mobilnych
 ======
 * * *
 
 Subtask 2
 ---------
-[Subtask 2](https://docs.google.com/spreadsheets/d/1P-H6yRZdTrsD066bxMJL8cB-ZfiorCecuvcOQUmmLeE/edit?usp=share_link)
+[Bugs Repotr Olx](https://docs.google.com/spreadsheets/d/1P-H6yRZdTrsD066bxMJL8cB-ZfiorCecuvcOQUmmLeE/edit?usp=share_link)
 * * *
 Subtask 3 
 ---------
