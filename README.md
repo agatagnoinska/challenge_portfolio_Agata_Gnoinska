@@ -142,7 +142,7 @@ Subtask 3
 1. *Do czego służy ta aplikacja?*
 
 
-Aplikacja służy do **sprzedaży, kupna, wymiany lub oddania za darmo usług i przedmiotów**. Umożliwia także dodanie **oferty pracy, aplikowanie o pracę** w odpowiedzi na ogłoszenie oraz stworzenie swojego profilu kandydata. Głównym celem jest szybkie wyszukiwanie oraz zakup lub dodawanie i sprzedaż potrzebnych rzeczy/usług głównie przez osoby prywatne. Platforma umożliwia i ułatwia poszukiwanie oraz **kontakt pomiędzy kupującym a sprzedającym**.
+    Aplikacja służy do **sprzedaży, kupna, wymiany lub oddania za darmo usług i przedmiotów**. Umożliwia także dodanie **oferty pracy, aplikowanie o pracę** w odpowiedzi na ogłoszenie oraz stworzenie swojego profilu kandydata. Głównym celem jest szybkie wyszukiwanie oraz zakup lub dodawanie i sprzedaż potrzebnych rzeczy/usług głównie przez osoby prywatne. Platforma umożliwia i ułatwia poszukiwanie oraz **kontakt pomiędzy kupującym a sprzedającym**.
 
 
 2. *Kto ma być użytkownikiem końcowym aplikacji?*
