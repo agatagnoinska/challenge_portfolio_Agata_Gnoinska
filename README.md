@@ -136,7 +136,7 @@ Task 4: Testowanie aplikacji mobilnych
 
 Subtask 2
 ---------
-[Bugs Repotr Olx](https://docs.google.com/spreadsheets/d/1P-H6yRZdTrsD066bxMJL8cB-ZfiorCecuvcOQUmmLeE/edit?usp=share_link)
+[Bugs Report Olx](https://docs.google.com/spreadsheets/d/1P-H6yRZdTrsD066bxMJL8cB-ZfiorCecuvcOQUmmLeE/edit?usp=share_link)
 * * *
 Subtask 3 
 ---------
