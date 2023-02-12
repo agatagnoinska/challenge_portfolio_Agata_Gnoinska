@@ -169,3 +169,17 @@ Subtask 3
 *  W testowaniu aplikacji natywnej nie mamy dostępu do **Devtools**.
 
 * * *
+Task 5: SQL 1
+======
+* * *
+
+Subtask 1
+---------
+* SELECT
+* SELECT DISTINCT
+* WHERE (and, or, not, IS NULL, IS NOT NULL)
+* ORDER BY
+* INSERT INTO
+* 
+
+
