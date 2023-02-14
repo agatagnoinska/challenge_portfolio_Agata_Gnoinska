@@ -173,7 +173,7 @@ Task 5: SQL 1
 ======
 * * *
 
-Subtask 1
+Subtask 2
 ---------
 * SELECT
 * SELECT DISTINCT
@@ -192,7 +192,7 @@ Subtask 1
 
 * * *
 
-Subtask 1
+Subtask 3
 ---------
 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
