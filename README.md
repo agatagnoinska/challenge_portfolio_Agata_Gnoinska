@@ -177,10 +177,18 @@ Subtask 1
 ---------
 * SELECT
 * SELECT DISTINCT
-* WHERE (and, or, not, IS NULL, IS NOT NULL)
+* WHERE (and, or, not)
+* IS NULL, IS NOT NULL
 * ORDER BY
+* GROUP BY
 * INSERT INTO
-* 
+* DELETE
+* MIN, MAX
+* LIKE
+* IN
+* BETWEEN
+* ANY, ALL
+* EXISTS
 
 * * *
 
@@ -197,6 +205,7 @@ ORDER BY surname;
 
 
 
+
 **2. Wyświetl film, który powstał w 2019 roku.**
 
 SELECT *
@@ -205,6 +214,7 @@ WHERE year_of_production = 2019;
 
 
 ![GitHub tag](2.png)
+
 
 
 
@@ -219,6 +229,7 @@ WHERE year_of_production BETWEEN 1900 AND 1999;
 
 
 
+
 **4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.**
 
 SELECT price, title 
@@ -227,6 +238,7 @@ WHERE price < 7;
 
 
 ![GitHub tag](4.png)
+
 
 
 
@@ -241,6 +253,7 @@ WHERE actor_id >= 4 AND actor_id <= 7;
 
 
 
+
 **6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
 
 SELECT * 
@@ -249,6 +262,7 @@ WHERE actor_id = 2 OR actor_id = 4 OR actor_id = 6;
 
 
 ![GitHub tag](6.png)
+
 
 
 
@@ -263,6 +277,7 @@ WHERE actor_id IN (1, 3, 5);
 
 
 
+
 **8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
 
 SELECT * 
@@ -271,6 +286,7 @@ WHERE NAME LIKE 'AN%';
 
 
 ![GitHub tag](8.png)
+
 
 
 
@@ -285,6 +301,7 @@ WHERE email IS NULL;
 
 
 
+
 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
 
 SELECT * 
@@ -293,6 +310,7 @@ WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 
 ![GitHub tag](10.png)
+
 
 
 
