@@ -186,94 +186,114 @@ Subtask 1
 
 Subtask 1
 ---------
-1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+**1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
-**SELECT * 
+SELECT * 
 FROM actors 
-ORDER BY surname;** 
+ORDER BY surname;
+
 
 ![GitHub tag](1.png)
 
 
-2. Wyświetl film, który powstał w 2019 roku.
 
-**SELECT *
+**2. Wyświetl film, który powstał w 2019 roku.**
+
+SELECT *
 FROM movies 
-WHERE year_of_production = 2019;**
+WHERE year_of_production = 2019;
+
 
 ![GitHub tag](2.png)
 
 
-3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
-**SELECT * 
+**3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
+
+SELECT * 
 FROM movies 
-WHERE year_of_production BETWEEN 1900 AND 1999;**
+WHERE year_of_production BETWEEN 1900 AND 1999;
+
 
 ![GitHub tag](3.png)
 
 
-4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
 
-**SELECT price, title 
+**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.**
+
+SELECT price, title 
 FROM movies 
-WHERE price < 7;**
+WHERE price < 7;
+
 
 ![GitHub tag](4.png)
 
 
-5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 
-**SELECT * 
+**5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
+
+SELECT * 
 FROM actors 
-WHERE actor_id >= 4 AND actor_id <= 7;**
+WHERE actor_id >= 4 AND actor_id <= 7;
+
 
 ![GitHub tag](5.png)
 
 
-6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
 
-**SELECT * 
+**6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
+
+SELECT * 
 FROM actors 
-WHERE actor_id = 2 OR actor_id = 4 OR actor_id = 6;**
+WHERE actor_id = 2 OR actor_id = 4 OR actor_id = 6;
+
 
 ![GitHub tag](6.png)
 
 
-7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
 
-**SELECT * 
+**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
+
+SELECT * 
 FROM actors 
-WHERE actor_id IN (1, 3, 5);** 
+WHERE actor_id IN (1, 3, 5);
+
 
 ![GitHub tag](7.png)
 
 
-8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
 
-**SELECT * 
+**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
+
+SELECT * 
 FROM actors 
-WHERE NAME LIKE 'AN%';**
+WHERE NAME LIKE 'AN%';
+
 
 ![GitHub tag](8.png)
 
 
-9. Wyświetl dane klienta, który nie ma podanego adresu email.
 
-**SELECT * 
+**9. Wyświetl dane klienta, który nie ma podanego adresu email.**
+
+SELECT * 
 FROM customers 
-WHERE email IS NULL;** 
+WHERE email IS NULL; 
+
 
 ![GitHub tag](9.png)
 
 
-10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
 
-**SELECT * 
+**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
+
+SELECT * 
 FROM movies 
-WHERE price > 9 AND movie_id BETWEEN 2 AND 8;**
+WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+
 
 ![GitHub tag](10.png)
+
 
 
 * * *
