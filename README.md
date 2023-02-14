@@ -94,6 +94,8 @@ Brakuje możliwości porównywania graczy, a także podsumowania statystyk gracz
 *   Nie wyświetla się favicon (błąd 404).
 * * *
 
+
+
 Task 2: Test cases
 ======
 
@@ -119,6 +121,8 @@ Po co piszemy test case’y?
 
 * * *
 
+
+
 Task 3: Raportowanie błędów
 ======
 
@@ -133,6 +137,8 @@ Subtask 3
 [Tests Report](https://docs.google.com/spreadsheets/d/1KTuDIrWS6Ofl8UZmbfxIeZBIdSVywJvJE-yDex69ee8/edit?usp=sharing)
 
 * * *
+
+
 
 Task 4: Testowanie aplikacji mobilnych
 ======
@@ -173,6 +179,8 @@ Subtask 3
 *  W testowaniu aplikacji natywnej nie mamy dostępu do **Devtools**.
 
 * * *
+
+
 
 Task 5: SQL 1
 ======
