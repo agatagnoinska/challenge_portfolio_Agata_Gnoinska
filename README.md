@@ -188,19 +188,23 @@ Subtask 1
 ---------
 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
 
-![GitHub tag](1.png)
-
 **SELECT * 
 FROM actors 
 ORDER BY surname;** 
 
+![GitHub tag](1.png)
+
+
 2. Wyświetl film, który powstał w 2019 roku.
+
+**SELECT * **
+
+FROM movies 
+
+WHERE year_of_production = 2019;**
 
 ![GitHub tag](2.png)
 
-**SELECT * 
-FROM movies 
-WHERE year_of_production = 2019;**
 
 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
