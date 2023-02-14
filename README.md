@@ -1,20 +1,20 @@
 Task 1: Testy eksploracyjne
 ======
-* * *
+
 
 Subtask 1
 ---------
 
  9 punktów
 
-* * *
+
 
 Subtask 3
 ---------
 
 Zastanawiam się nad zmianą pracy i branży, a mieliśmy szkolenie w pracy powiązane z programowaniem i IT, co zawsze mnie ciekawiło, ale nigdy nie miałam okazji próbować. Chciałam przekonać się jak praktycznie wygląda testowanie, do tego lubię wyszukiwać szczegóły i błędy oraz nie boję się klikać :smiley:
 
-* * *
+
 
 Subtask 4
 ---------
@@ -96,18 +96,20 @@ Brakuje możliwości porównywania graczy, a także podsumowania statystyk gracz
 
 Task 2: Test cases
 ======
-* * *
+
 
 Subtask 1
 ---------
 [Przypadki testowe na podstawie User Story](https://docs.google.com/spreadsheets/d/1-wAf31E76_X2PXHe6B3eY2_9sM2ecmgVdi_MraQ5gE0/edit?usp=sharing)
 
-* * *
+
+
 Subtask 2
 ---------
 [Przypadki testowe na podstawie “własnych doświadczeń"](https://docs.google.com/document/d/1jdNBoIOo_dSgxcfpOr7DRsupr08_Wt4CAozyikA97YI/edit?usp=sharing)
 
-* * *
+
+
 Subtask 3
 ---------
 Po co piszemy test case’y?
@@ -116,28 +118,30 @@ Po co piszemy test case’y?
 * Szybko będzie można przeprowadzić jeszcze raz test np. po wprowadzonych zmianach lub naprawionych usterkach
 
 * * *
+
 Task 3: Raportowanie błędów
 ======
-* * *
+
 
 Subtask 2
 ---------
 [Bugs Reports](https://docs.google.com/spreadsheets/d/1IO59aS6apXWVpZZQe_7vELbjcHcz2QyeJE5OVG-UOKk/edit?usp=sharing)
-* * *
+
 
 Subtask 3
 ---------
 [Tests Report](https://docs.google.com/spreadsheets/d/1KTuDIrWS6Ofl8UZmbfxIeZBIdSVywJvJE-yDex69ee8/edit?usp=sharing)
 
 * * *
+
 Task 4: Testowanie aplikacji mobilnych
 ======
-* * *
+
 
 Subtask 2
 ---------
 [Bugs Report Olx](https://docs.google.com/spreadsheets/d/1P-H6yRZdTrsD066bxMJL8cB-ZfiorCecuvcOQUmmLeE/edit?usp=share_link)
-* * *
+
 Subtask 3 
 ---------
 1. *Do czego służy ta aplikacja?*
@@ -169,9 +173,10 @@ Subtask 3
 *  W testowaniu aplikacji natywnej nie mamy dostępu do **Devtools**.
 
 * * *
+
 Task 5: SQL 1
 ======
-* * *
+
 
 Subtask 2
 ---------
@@ -190,7 +195,7 @@ Subtask 2
 * ANY, ALL
 * EXISTS
 
-* * *
+
 
 Subtask 3
 ---------
