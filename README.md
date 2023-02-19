@@ -326,5 +326,33 @@ WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 
 
+**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd**
 
+UPDATE customers
+SET surname = 'Miler'
+WHERE name = 'Ania' AND surname = 'Muler'
+
+
+
+**12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila.**
+
+SELECT customers.name, customers.email FROM customers INNER JOIN sale ON customers.customer_id=sale.customer_id WHERE movie_id=4; 
+
+
+**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
+
+UPDATE customers SET email = 'pati@mail.com' WHERE name = 'Patrycja' AND surname = 'Komor'; 
+
+
+
+**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
+
+SELECT customers.name, customers.surname, movies.title FROM ((customers INNER JOIN sale ON customers.customer_id = sale.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id); 
+
+
+
+**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
+
+ALTER TABLE customers
+ADD pseudonym char(3);
 * * *
