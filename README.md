@@ -539,4 +539,9 @@ INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com',
 Subtask 2
 ---------
 
+
+![GitHub tag](test.png)
+![GitHub tag](test2.png)
+
+
 * * *
