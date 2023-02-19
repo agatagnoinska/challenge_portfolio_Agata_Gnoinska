@@ -333,10 +333,18 @@ SET surname = 'Miler'
 WHERE name = 'Ania' AND surname = 'Muler'
 
 
+![GitHub tag](11-1.png)
+![GitHub tag](11-2.png)
+
+
 
 **12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila.**
 
 SELECT customers.name, customers.email FROM customers INNER JOIN sale ON customers.customer_id=sale.customer_id WHERE movie_id=4; 
+
+
+![GitHub tag](12.png)
+
 
 
 **13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
@@ -344,10 +352,16 @@ SELECT customers.name, customers.email FROM customers INNER JOIN sale ON custome
 UPDATE customers SET email = 'pati@mail.com' WHERE name = 'Patrycja' AND surname = 'Komor'; 
 
 
+![GitHub tag](13-1.png)
+![GitHub tag](13-2.png)
+
 
 **14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
 SELECT customers.name, customers.surname, movies.title FROM ((customers INNER JOIN sale ON customers.customer_id = sale.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id); 
+
+
+![GitHub tag](14.png)
 
 
 
@@ -355,4 +369,41 @@ SELECT customers.name, customers.surname, movies.title FROM ((customers INNER JO
 
 ALTER TABLE customers
 ADD pseudonym char(3);
+UPDATE customers
+SET pseudonym = (SELECT CONCAT(LEFT(name,2), RIGHT (surname, 1)) AS pseudonym)
+
+
+
+
+**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
+
+SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id=sale.movie_id; 
+
+
+
+
+**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**
+
+
+SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name; 
+
+
+**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $.**
+
+UPDATE movies
+SET price = price + 2.5
+WHERE year_of_production > 2000
+
+
+**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**
+
+SELECT actors.name, movies.title FROM ((actors INNER JOIN cast ON actors.actor_id=cast.actor_id) INNER JOIN movies ON movies.movie_id=cast.movie_id) WHERE actors.actor_id = 4; 
+
+
+**20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.**
+
+INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa'); 
+
+
+
 * * *
