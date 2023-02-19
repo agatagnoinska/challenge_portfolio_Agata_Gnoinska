@@ -375,6 +375,12 @@ WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 
 
+Task 6: SQL 2
+======
+
+
+Subtask 1
+---------
 
 
 **11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd**
@@ -530,6 +536,7 @@ INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com',
 
 
 
-
+Subtask 2
+---------
 
 * * *
