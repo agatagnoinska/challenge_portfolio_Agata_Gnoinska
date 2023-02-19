@@ -367,17 +367,26 @@ SELECT customers.name, customers.surname, movies.title FROM ((customers INNER JO
 
 **15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
 
+
 ALTER TABLE customers
 ADD pseudonym char(3);
 UPDATE customers
 SET pseudonym = (SELECT CONCAT(LEFT(name,2), RIGHT (surname, 1)) AS pseudonym)
 
 
+![GitHub tag](15.png)
+
+
 
 
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
+
 SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id=sale.movie_id; 
+
+
+![GitHub tag](16.png)
+
 
 
 
@@ -388,21 +397,50 @@ SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id=sale.movie_
 SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name; 
 
 
+![GitHub tag](17.png)
+
+
+
+
+
+
 **18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $.**
+
 
 UPDATE movies
 SET price = price + 2.5
 WHERE year_of_production > 2000
 
 
+![GitHub tag](18.png)
+
+
+
+
+
+
 **19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**
+
 
 SELECT actors.name, movies.title FROM ((actors INNER JOIN cast ON actors.actor_id=cast.actor_id) INNER JOIN movies ON movies.movie_id=cast.movie_id) WHERE actors.actor_id = 4; 
 
 
+![GitHub tag](19.png)
+
+
+
+
+
+
 **20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.**
 
+
 INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa'); 
+
+
+
+![GitHub tag](20.png)
+
 
 
 
